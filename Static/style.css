@@ -1,0 +1,60 @@
+.Nav {
+    overflow: hidden;
+    background-color: #333;
+}
+.Nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	display: inline-block;
+	background-color: #333;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.Nav a:hover {
+  background-color: red;
+}
+.Header {
+	text-align: center;
+	overflow: hidden;
+    background-color: #333;
+	color: white;
+	text-decoration: underline;
+}
+.column {
+	float: left;
+	width: 50%;
+
+}
+.column img{
+	float: left;
+	width: 50%;
+}
+.main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#jobs{
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+H2{
+	text-decoration: underline;
+}
+H3{
+	text-decoration: underline;
+}
+.main {
+	font-size:25px;
+}
